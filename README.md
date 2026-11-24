@@ -1,30 +1,31 @@
 ## Md Saif Ahmed
 
-Software engineer, mostly backend · CSE at MIST, Dhaka (graduating 2027) · UTC+6, open to remote work
+I'm a CSE student at MIST in Dhaka, graduating in 2027. I mostly work on backends with Go, Python and PostgreSQL,
+and I build the web apps that go with them. I'm open to backend and full-stack roles and internships, including remote work.
 
-I build and run **[Hasnahena](https://hasnahenafoundation.com)**, an interest-free cooperative finance platform that has been
-live with real members since August 2026. I'm its only developer: a Go API that puts every money movement in one
-PostgreSQL transaction, a Next.js web app, CI on GitHub Actions, encrypted backups with restore drills, and monitoring.
+[Portfolio](https://saif-sakib.github.io/portfolio/) ·
+[CV](https://saif-sakib.github.io/portfolio/cv/Saif_Ahmed_CV_General.pdf) ·
+[LinkedIn](https://www.linkedin.com/in/saifahmedsakib) ·
+[Email](mailto:saifahmedsakib@gmail.com)
 
-**Portfolio and CVs:** [saif-sakib.github.io/portfolio](https://saif-sakib.github.io/portfolio/)
+### Projects I built solo
 
-### Selected work
+**Hasnahena** is the online passbook I built and run for an interest-free cooperative in Jashore. Members have used it
+since August 2026. The Go API records each balance change in one PostgreSQL transaction, and I test backup restores in CI.
+[Live app](https://hasnahenafoundation.com/) · [Source on GitHub](https://github.com/saif-sakib/hasnahena)
 
-| Project | What it is | My part |
-| --- | --- | --- |
-| [**Hasnahena**](https://github.com/saif-sakib/hasnahena) | Cooperative finance platform, in production · Go, Next.js, PostgreSQL | Everything. 269 Go tests, load-tested at ~180 postings/s, 45 ADRs |
-| [**QuestBoard**](https://github.com/Ragib100/QuestBoard) | Gamified Q&A for STEM students · FastAPI, PostgreSQL, Claude API | All the server code: ~40 endpoints, atomic point ledger, 70 pytest tests |
-| [**LocalFix**](https://github.com/saif-sakib/LocalFix) | Civic complaint platform · React, Express, Oracle | Express API and Oracle schema: 14 triggers, 27 indexes |
-| [**HallBridge**](https://github.com/Ragib100/HallBridge) | Hall management for 500+ residents · Next.js, MongoDB | Most of the API and data models, Google OAuth 2.0 sign-in |
-| [**MCC Website**](https://github.com/istiaqueahmedarik/mcc_website) | MIST Computer Club platform, in production · Next.js, Hono | Alumni directory end to end; fixed broken access control |
-| [**Brute-Buddy**](https://github.com/saif-sakib/Brute-Buddy) | Multi-threaded login fuzzing CLI for authorized testing · Python | Solo |
+**LoverBaazar** is a live home-appliance and furniture shop I rebuilt from WordPress. I built the Astro storefront,
+Go API and shop admin, kept existing product links working, and made checkout safe to retry after a dropped connection.
+[Live shop](https://loverbaazar.com/) · [Source on GitHub](https://github.com/saif-sakib/loverbaazar)
 
-### Also
+### Team projects
 
-- **Competitive programming:** 38th at ICPC Asia Dhaka Regional 2025 (university teams) · Codeforces Specialist ([Saif_Ahmed008](https://codeforces.com/profile/Saif_Ahmed008)) · CodeChef 3-Star · 1700+ problems
-- **Security:** CTF player (5th at Cyber Drill 2025, 34th globally at Bugcrowd USA CTF 2025); former Web Security Instructor at the MIST Cyber Security Club
-- **Leadership:** President of the MIST Computer Club; competitive programming instructor for 50+ juniors
+I wrote the current FastAPI backend for **QuestBoard**, a Q&A app where students can offer points for answers. I also built
+the **MIST Computer Club** site's alumni directory, from PostgreSQL migrations and the API to the Next.js pages.
+[QuestBoard](https://github.com/Ragib100/QuestBoard) · [MCC website](https://github.com/istiaqueahmedarik/mcc_website)
 
-**Stack I use most:** Go · Python (FastAPI) · PostgreSQL · TypeScript / Next.js · Docker · GitHub Actions · Cloudflare
+### Teaching and contests
 
-**Contact:** [saifahmedsakib@gmail.com](mailto:saifahmedsakib@gmail.com) · [LinkedIn](https://www.linkedin.com/in/saif-ahmed-8a14651b0)
+I lead the MIST Computer Club and mentor junior programmers. My team placed 38th among university teams at the 2025
+ICPC Asia Dhaka Regional. I previously taught web security at the MIST Cyber Security Club.
+[Codeforces](https://codeforces.com/profile/Saif_Ahmed008) · [Contest results](https://saif-sakib.github.io/portfolio/#competitive)
